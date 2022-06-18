@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  height: 100vh;
+  background-image: linear-gradient(#6a59ff, #9796f0);
+}
+.emojis-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5% 10% 5% 10%;
+}
+.win-lose-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 87vh;
+}
